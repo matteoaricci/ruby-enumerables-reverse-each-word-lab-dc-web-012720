@@ -8,5 +8,6 @@ def reverse_each_word(sentence)
   new_arr.join(" ")
   
   rev_sent.collect do |n|
-    
+    n.reverse
+  end 
 end
