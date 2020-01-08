@@ -7,5 +7,5 @@ def reverse_each_word(sentence)
   # end 
   # new_arr.join(" ")
   
-  rev_sent.collect { |n| n.reverse }
+  rev_sent.collect { |n| n.reverse }.join(" ")
 end
