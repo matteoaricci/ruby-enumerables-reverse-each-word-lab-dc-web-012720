@@ -6,4 +6,7 @@ def reverse_each_word(sentence)
     new_arr << n.reverse 
   end 
   new_arr.join(" ")
+  
+  rev_sent.collect do |n|
+    
 end
